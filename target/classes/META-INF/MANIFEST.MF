@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: sendMail
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: gleyd
+Implementation-Vendor-Id: com.gleydson.sendMail
+Build-Jdk: 1.8.0_111
+Implementation-URL: http://projects.spring.io/spring-boot/sendMail/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
