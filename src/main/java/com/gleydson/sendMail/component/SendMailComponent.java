@@ -16,9 +16,9 @@ public class SendMailComponent {
 	public void sendMail(Data data) {
 		SimpleMailMessage email = new SimpleMailMessage();
 		email.setTo("gleydsonsr@gmail.com");
-		email.setSubject(data.getName() + "| Email do meu site");
+		email.setSubject(data.getName() + " | Email do meu site");
 		email.setText(
-				"Messagem de: " + data.getName()
+				"Messagem de: " + data.getName() + "\n"
 				+ "Com e-mail: " + data.getFrom() + "\n\n"
 				+ data.getMessage()
 		);
